@@ -1,0 +1,3024 @@
+/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torchvision/image.so: undefined symbol: _ZN3c104impl8GPUTrace13gpuTraceStateE
+  warn(f"Failed to load image Python extension: {e}")
+Dataset ImageFolder
+    Number of datapoints: 5712
+    Root location: /home/ykn/cds/chapter03_Python_image_classification/data/Brain Tumor MRI Dataset/archive/Training
+    StandardTransform
+Transform: Compose(
+               Resize(size=256, interpolation=bilinear, max_size=None, antialias=None)
+               CenterCrop(size=(224, 224))
+               ToTensor()
+           )
+571
+571
+571
+571
+571
+571
+571
+571
+571
+571
+
+
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 22.578185, loss: 1.725351
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 28.146453, loss: 1.562068
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 34.019832, loss: 1.409753
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 40.808543, loss: 1.286879
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 45.614035, loss: 1.165727
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 1, acc: 51.487414, loss: 1.075535
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 1, acc: 56.750572, loss: 0.980355
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 1, acc: 61.403509, loss: 0.907579
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 1, acc: 65.751335, loss: 0.844327
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 1, acc: 68.649886, loss: 0.787986
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, acc: 71.395881, loss: 0.739019
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, acc: 73.455378, loss: 0.698359
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, acc: 75.819985, loss: 0.655854
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, acc: 76.887872, loss: 0.625328
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, acc: 77.421815, loss: 0.598532
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, acc: 78.184592, loss: 0.571683
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, acc: 78.947368, loss: 0.551507
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, acc: 79.557590, loss: 0.532619
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, acc: 80.549199, loss: 0.511679
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, acc: 80.549199, loss: 0.501165
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, acc: 80.930587, loss: 0.487568
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, acc: 81.693364, loss: 0.472568
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, acc: 82.379863, loss: 0.459663
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, acc: 82.684973, loss: 0.448844
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, acc: 83.676583, loss: 0.437365
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, acc: 83.829138, loss: 0.428575
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, acc: 83.905416, loss: 0.421654
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, acc: 83.829138, loss: 0.411859
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, acc: 83.981693, loss: 0.406888
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, acc: 84.591915, loss: 0.395147
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, acc: 84.591915, loss: 0.389516
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, acc: 84.820748, loss: 0.384460
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, acc: 85.583524, loss: 0.375862
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, acc: 85.583524, loss: 0.369411
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, acc: 85.736079, loss: 0.365294
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, acc: 85.812357, loss: 0.360501
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, acc: 86.270023, loss: 0.354280
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, acc: 86.117468, loss: 0.349708
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, acc: 86.193745, loss: 0.343521
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, acc: 86.422578, loss: 0.337556
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, acc: 86.498856, loss: 0.334372
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, acc: 86.803966, loss: 0.330213
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, acc: 86.880244, loss: 0.325475
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, acc: 87.261632, loss: 0.320741
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, acc: 87.185355, loss: 0.315936
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, acc: 87.566743, loss: 0.312578
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, acc: 87.719298, loss: 0.308976
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, acc: 87.719298, loss: 0.309508
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, acc: 88.024409, loss: 0.304935
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, acc: 88.024409, loss: 0.301579
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, acc: 88.482075, loss: 0.296129
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, acc: 88.939741, loss: 0.292203
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, acc: 88.863463, loss: 0.289096
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, acc: 88.939741, loss: 0.285078
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, acc: 89.092296, loss: 0.283075
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, acc: 89.168574, loss: 0.280804
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, acc: 89.168574, loss: 0.277483
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, acc: 89.321129, loss: 0.277482
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, acc: 89.397407, loss: 0.274203
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, acc: 89.626240, loss: 0.272601
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, acc: 89.778795, loss: 0.266666
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, acc: 89.855072, loss: 0.265592
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, acc: 90.007628, loss: 0.262584
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, acc: 89.778795, loss: 0.263100
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, acc: 89.931350, loss: 0.259623
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, acc: 90.236461, loss: 0.255029
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, acc: 90.389016, loss: 0.253100
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, acc: 90.541571, loss: 0.251248
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, acc: 90.541571, loss: 0.249661
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, acc: 90.617849, loss: 0.245725
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, acc: 90.999237, loss: 0.243179
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, acc: 90.846682, loss: 0.242589
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, acc: 91.151793, loss: 0.239960
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, acc: 91.380625, loss: 0.237666
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, acc: 91.456903, loss: 0.235724
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, acc: 91.685736, loss: 0.232828
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, acc: 91.685736, loss: 0.232772
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, acc: 91.914569, loss: 0.230447
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, acc: 91.914569, loss: 0.229106
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, acc: 91.762014, loss: 0.226787
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, acc: 91.990847, loss: 0.223947
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, acc: 91.990847, loss: 0.223856
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, acc: 92.067124, loss: 0.222103
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, acc: 91.990847, loss: 0.221203
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, acc: 92.143402, loss: 0.219997
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, acc: 92.067124, loss: 0.218885
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, acc: 92.143402, loss: 0.214621
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, acc: 92.372235, loss: 0.212462
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, acc: 92.219680, loss: 0.211255
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, acc: 92.601068, loss: 0.209798
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, acc: 92.448513, loss: 0.208244
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, acc: 92.524790, loss: 0.206404
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, acc: 92.524790, loss: 0.205460
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, acc: 92.829901, loss: 0.204002
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, acc: 92.829901, loss: 0.203116
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, acc: 93.058734, loss: 0.201873
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, acc: 92.829901, loss: 0.200885
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, acc: 93.135011, loss: 0.199172
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, acc: 93.135011, loss: 0.198659
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, acc: 93.211289, loss: 0.196472
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, acc: 93.135011, loss: 0.195833
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, acc: 93.135011, loss: 0.195869
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, acc: 93.058734, loss: 0.195793
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, acc: 93.211289, loss: 0.193832
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, acc: 93.287567, loss: 0.193441
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, acc: 93.211289, loss: 0.190733
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, acc: 93.363844, loss: 0.189421
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, acc: 93.516400, loss: 0.187743
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, acc: 93.440122, loss: 0.186221
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, acc: 93.745233, loss: 0.186652
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, acc: 93.668955, loss: 0.185459
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, acc: 93.821510, loss: 0.185012
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, acc: 93.821510, loss: 0.184251
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, acc: 93.897788, loss: 0.182690
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, acc: 93.821510, loss: 0.181390
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, acc: 93.897788, loss: 0.181238
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, acc: 93.897788, loss: 0.180606
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, acc: 93.897788, loss: 0.178305
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, acc: 93.974066, loss: 0.177655
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, acc: 93.974066, loss: 0.175994
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, acc: 93.974066, loss: 0.174741
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, acc: 94.050343, loss: 0.175088
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, acc: 93.897788, loss: 0.174922
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, acc: 93.974066, loss: 0.174486
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, acc: 93.974066, loss: 0.173264
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, acc: 94.050343, loss: 0.172407
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, acc: 93.974066, loss: 0.171793
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, acc: 94.050343, loss: 0.170975
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, acc: 93.974066, loss: 0.170063
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, acc: 94.202899, loss: 0.170776
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, acc: 94.050343, loss: 0.170207
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, acc: 94.202899, loss: 0.168448
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, acc: 94.126621, loss: 0.167488
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, acc: 94.202899, loss: 0.165985
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, acc: 94.355454, loss: 0.165090
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, acc: 94.355454, loss: 0.163268
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, acc: 94.431732, loss: 0.162224
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, acc: 94.431732, loss: 0.159903
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, acc: 94.431732, loss: 0.158971
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, acc: 94.508009, loss: 0.158727
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, acc: 94.431732, loss: 0.158382
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, acc: 94.431732, loss: 0.158535
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, acc: 94.431732, loss: 0.157956
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, acc: 94.355454, loss: 0.157627
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, acc: 94.355454, loss: 0.156355
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, acc: 94.355454, loss: 0.154920
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, acc: 94.431732, loss: 0.155157
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, acc: 94.508009, loss: 0.154067
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, acc: 94.431732, loss: 0.153418
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, acc: 94.508009, loss: 0.153047
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, acc: 94.584287, loss: 0.152318
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, acc: 94.508009, loss: 0.151021
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, acc: 94.508009, loss: 0.151022
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, acc: 94.508009, loss: 0.150669
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, acc: 94.584287, loss: 0.149987
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, acc: 94.508009, loss: 0.149741
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, acc: 94.660564, loss: 0.150239
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, acc: 94.508009, loss: 0.149816
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, acc: 94.660564, loss: 0.148685
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, acc: 94.584287, loss: 0.146628
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, acc: 94.584287, loss: 0.146852
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, acc: 94.660564, loss: 0.146189
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, acc: 94.584287, loss: 0.145126
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, acc: 94.660564, loss: 0.145805
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, acc: 94.660564, loss: 0.145162
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, acc: 94.736842, loss: 0.145640
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, acc: 94.736842, loss: 0.145919
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, acc: 94.736842, loss: 0.145946
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, acc: 94.660564, loss: 0.144519
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, acc: 94.660564, loss: 0.145107
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, acc: 94.584287, loss: 0.145414
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, acc: 94.508009, loss: 0.145368
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, acc: 94.584287, loss: 0.145236
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, acc: 94.584287, loss: 0.144704
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, acc: 94.660564, loss: 0.142574
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, acc: 94.736842, loss: 0.142575
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, acc: 94.584287, loss: 0.142710
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, acc: 94.660564, loss: 0.142493
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, acc: 94.736842, loss: 0.141338
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, acc: 94.736842, loss: 0.140970
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, acc: 94.736842, loss: 0.139998
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, acc: 94.736842, loss: 0.140543
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, acc: 94.813120, loss: 0.139126
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, acc: 94.889397, loss: 0.139115
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, acc: 94.736842, loss: 0.139491
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, acc: 94.965675, loss: 0.138058
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, acc: 95.041953, loss: 0.137537
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, acc: 95.118230, loss: 0.137328
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, acc: 95.118230, loss: 0.137175
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, acc: 95.118230, loss: 0.137223
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, acc: 95.118230, loss: 0.137472
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, acc: 95.118230, loss: 0.136944
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, acc: 95.270786, loss: 0.135974
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, acc: 95.270786, loss: 0.135531
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, acc: 95.270786, loss: 0.134563
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, acc: 95.270786, loss: 0.134309
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, acc: 95.347063, loss: 0.133058
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, acc: 95.270786, loss: 0.133559
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, acc: 95.347063, loss: 0.132594
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, acc: 95.347063, loss: 0.132079
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, acc: 95.347063, loss: 0.130208
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, acc: 95.347063, loss: 0.129766
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, acc: 95.347063, loss: 0.129970
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, acc: 95.499619, loss: 0.129884
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, acc: 95.499619, loss: 0.129368
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, acc: 95.575896, loss: 0.128243
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, acc: 95.499619, loss: 0.128092
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, acc: 95.499619, loss: 0.128226
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, acc: 95.652174, loss: 0.127365
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, acc: 95.575896, loss: 0.127320
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, acc: 95.652174, loss: 0.125992
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, acc: 95.728452, loss: 0.128074
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, acc: 95.652174, loss: 0.127080
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, acc: 95.728452, loss: 0.127198
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, acc: 95.728452, loss: 0.126952
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, acc: 95.652174, loss: 0.125647
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, acc: 95.652174, loss: 0.124338
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, acc: 95.652174, loss: 0.123756
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, acc: 95.652174, loss: 0.124891
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, acc: 95.728452, loss: 0.124179
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, acc: 95.652174, loss: 0.123194
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, acc: 95.652174, loss: 0.123085
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, acc: 95.652174, loss: 0.122992
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, acc: 95.728452, loss: 0.123448
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, acc: 95.804729, loss: 0.123449
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, acc: 95.728452, loss: 0.121911
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, acc: 95.804729, loss: 0.123216
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, acc: 95.804729, loss: 0.123432
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, acc: 95.804729, loss: 0.123002
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, acc: 95.881007, loss: 0.122816
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, acc: 95.804729, loss: 0.122679
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, acc: 95.881007, loss: 0.122142
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, acc: 95.881007, loss: 0.122555
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, acc: 95.881007, loss: 0.120771
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, acc: 95.881007, loss: 0.119674
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, acc: 95.804729, loss: 0.119508
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, acc: 95.804729, loss: 0.119311
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, acc: 95.804729, loss: 0.118313
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, acc: 95.728452, loss: 0.118654
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, acc: 95.804729, loss: 0.118651
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, acc: 95.881007, loss: 0.119407
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, acc: 95.881007, loss: 0.119213
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, acc: 95.881007, loss: 0.118329
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, acc: 95.957285, loss: 0.118530
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, acc: 96.033562, loss: 0.118927
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, acc: 95.957285, loss: 0.119546
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, acc: 95.881007, loss: 0.119586
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, acc: 95.957285, loss: 0.120375
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, acc: 96.033562, loss: 0.119109
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, acc: 95.957285, loss: 0.118836
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, acc: 95.957285, loss: 0.117506
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, acc: 95.957285, loss: 0.117815
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, acc: 95.957285, loss: 0.116882
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, acc: 96.033562, loss: 0.116730
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, acc: 96.109840, loss: 0.116120
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, acc: 96.033562, loss: 0.116270
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, acc: 95.957285, loss: 0.116349
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, acc: 96.033562, loss: 0.115976
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, acc: 95.957285, loss: 0.116530
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, acc: 96.033562, loss: 0.116450
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, acc: 95.957285, loss: 0.117031
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, acc: 96.033562, loss: 0.117933
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, acc: 96.109840, loss: 0.116901
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, acc: 96.033562, loss: 0.116279
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, acc: 96.109840, loss: 0.114623
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, acc: 96.186117, loss: 0.115191
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, acc: 96.186117, loss: 0.116118
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, acc: 96.186117, loss: 0.115645
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, acc: 96.186117, loss: 0.114509
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, acc: 96.186117, loss: 0.114608
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, acc: 96.186117, loss: 0.114828
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, acc: 96.109840, loss: 0.114419
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, acc: 96.109840, loss: 0.114083
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, acc: 96.109840, loss: 0.114391
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, acc: 96.186117, loss: 0.113947
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, acc: 96.186117, loss: 0.113891
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, acc: 96.186117, loss: 0.113925
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, acc: 96.262395, loss: 0.113859
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, acc: 96.338673, loss: 0.114215
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, acc: 96.186117, loss: 0.113000
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, acc: 96.262395, loss: 0.112939
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, acc: 96.262395, loss: 0.113090
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, acc: 96.262395, loss: 0.111622
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, acc: 96.262395, loss: 0.110689
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, acc: 96.109840, loss: 0.111648
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, acc: 96.109840, loss: 0.112236
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, acc: 96.109840, loss: 0.112512
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, acc: 96.109840, loss: 0.111585
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, acc: 96.109840, loss: 0.110788
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, acc: 96.186117, loss: 0.110829
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, acc: 96.109840, loss: 0.110338
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, acc: 96.186117, loss: 0.110932
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, acc: 96.186117, loss: 0.110928
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, acc: 96.262395, loss: 0.110562
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, acc: 96.186117, loss: 0.109702
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, acc: 96.186117, loss: 0.109824
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, acc: 96.186117, loss: 0.109860
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, acc: 96.186117, loss: 0.110405
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, acc: 96.262395, loss: 0.110169
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, acc: 96.186117, loss: 0.109374
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, acc: 96.262395, loss: 0.108471
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, acc: 96.262395, loss: 0.109750
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, acc: 96.186117, loss: 0.109190
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, acc: 96.262395, loss: 0.108737
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, acc: 96.186117, loss: 0.108018
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, acc: 96.262395, loss: 0.107492
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, acc: 96.262395, loss: 0.107146
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, acc: 96.262395, loss: 0.108042
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, acc: 96.262395, loss: 0.107692
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, acc: 96.262395, loss: 0.107961
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, acc: 96.262395, loss: 0.107250
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, acc: 96.262395, loss: 0.107564
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, acc: 96.262395, loss: 0.107702
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, acc: 96.338673, loss: 0.107735
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, acc: 96.262395, loss: 0.108217
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, acc: 96.338673, loss: 0.108098
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, acc: 96.338673, loss: 0.108027
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, acc: 96.338673, loss: 0.107995
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, acc: 96.338673, loss: 0.108110
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, acc: 96.414950, loss: 0.107903
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, acc: 96.338673, loss: 0.108384
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, acc: 96.338673, loss: 0.108510
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, acc: 96.338673, loss: 0.108603
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, acc: 96.338673, loss: 0.108048
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, acc: 96.338673, loss: 0.107685
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, acc: 96.414950, loss: 0.106586
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, acc: 96.491228, loss: 0.106238
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, acc: 96.414950, loss: 0.105927
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, acc: 96.414950, loss: 0.106248
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, acc: 96.414950, loss: 0.106589
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, acc: 96.338673, loss: 0.106633
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, acc: 96.338673, loss: 0.106391
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, acc: 96.414950, loss: 0.106475
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, acc: 96.567506, loss: 0.105269
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, acc: 96.338673, loss: 0.106436
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, acc: 96.338673, loss: 0.106341
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, acc: 96.338673, loss: 0.106441
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, acc: 96.491228, loss: 0.105463
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, acc: 96.414950, loss: 0.104942
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, acc: 96.414950, loss: 0.105208
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, acc: 96.414950, loss: 0.105192
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, acc: 96.414950, loss: 0.104876
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, acc: 96.643783, loss: 0.104265
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, acc: 96.567506, loss: 0.104341
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, acc: 96.567506, loss: 0.103784
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, acc: 96.567506, loss: 0.104357
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, acc: 96.567506, loss: 0.104257
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, acc: 96.643783, loss: 0.103284
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, acc: 96.643783, loss: 0.103515
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, acc: 96.643783, loss: 0.103465
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, acc: 96.643783, loss: 0.103690
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, acc: 96.643783, loss: 0.103176
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, acc: 96.567506, loss: 0.103516
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, acc: 96.567506, loss: 0.102594
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, acc: 96.567506, loss: 0.101932
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, acc: 96.567506, loss: 0.102143
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, acc: 96.567506, loss: 0.102684
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, acc: 96.491228, loss: 0.102446
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, acc: 96.414950, loss: 0.102949
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, acc: 96.567506, loss: 0.102219
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, acc: 96.567506, loss: 0.102498
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, acc: 96.567506, loss: 0.102438
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, acc: 96.567506, loss: 0.102124
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, acc: 96.567506, loss: 0.102936
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, acc: 96.567506, loss: 0.102873
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, acc: 96.491228, loss: 0.103136
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, acc: 96.567506, loss: 0.103296
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, acc: 96.720061, loss: 0.103529
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, acc: 96.567506, loss: 0.103906
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, acc: 96.567506, loss: 0.103448
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, acc: 96.567506, loss: 0.102732
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, acc: 96.567506, loss: 0.102862
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, acc: 96.567506, loss: 0.102541
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, acc: 96.567506, loss: 0.102851
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, acc: 96.643783, loss: 0.103313
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, acc: 96.643783, loss: 0.103189
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, acc: 96.643783, loss: 0.102661
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, acc: 96.567506, loss: 0.101999
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, acc: 96.643783, loss: 0.102689
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, acc: 96.567506, loss: 0.103415
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, acc: 96.643783, loss: 0.103347
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, acc: 96.643783, loss: 0.102546
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, acc: 96.643783, loss: 0.102245
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, acc: 96.643783, loss: 0.101445
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, acc: 96.643783, loss: 0.101331
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, acc: 96.643783, loss: 0.100635
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, acc: 96.643783, loss: 0.101215
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, acc: 96.643783, loss: 0.101212
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, acc: 96.643783, loss: 0.100798
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, acc: 96.643783, loss: 0.101344
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, acc: 96.567506, loss: 0.102175
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, acc: 96.643783, loss: 0.102008
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, acc: 96.643783, loss: 0.101489
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, acc: 96.643783, loss: 0.101065
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, acc: 96.643783, loss: 0.101035
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, acc: 96.643783, loss: 0.100845
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, acc: 96.720061, loss: 0.100714
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, acc: 96.643783, loss: 0.100335
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, acc: 96.720061, loss: 0.100900
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, acc: 96.643783, loss: 0.100086
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, acc: 96.720061, loss: 0.100424
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, acc: 96.720061, loss: 0.100732
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, acc: 96.720061, loss: 0.100695
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, acc: 96.720061, loss: 0.101204
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, acc: 96.720061, loss: 0.101430
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, acc: 96.720061, loss: 0.101308
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, acc: 96.720061, loss: 0.100543
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, acc: 96.720061, loss: 0.100610
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, acc: 96.720061, loss: 0.101303
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, acc: 96.720061, loss: 0.101235
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, acc: 96.720061, loss: 0.100382
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, acc: 96.720061, loss: 0.099869
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, acc: 96.720061, loss: 0.099998
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, acc: 96.720061, loss: 0.100356
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, acc: 96.720061, loss: 0.100630
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, acc: 96.720061, loss: 0.100573
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, acc: 96.720061, loss: 0.099874
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, acc: 96.720061, loss: 0.099582
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, acc: 96.796339, loss: 0.099662
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, acc: 96.796339, loss: 0.100070
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, acc: 96.720061, loss: 0.100236
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, acc: 96.796339, loss: 0.100144
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, acc: 96.720061, loss: 0.100612
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, acc: 96.720061, loss: 0.100396
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, acc: 96.796339, loss: 0.099827
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, acc: 96.796339, loss: 0.099184
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, acc: 96.720061, loss: 0.099435
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, acc: 96.720061, loss: 0.099988
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, acc: 96.720061, loss: 0.100105
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, acc: 96.720061, loss: 0.099426
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, acc: 96.720061, loss: 0.099253
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, acc: 96.796339, loss: 0.098615
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, acc: 96.720061, loss: 0.098825
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, acc: 96.720061, loss: 0.099093
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, acc: 96.720061, loss: 0.099210
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, acc: 96.720061, loss: 0.098779
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, acc: 96.720061, loss: 0.099367
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, acc: 96.720061, loss: 0.099917
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, acc: 96.720061, loss: 0.099877
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, acc: 96.720061, loss: 0.099937
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, acc: 96.567506, loss: 0.100446
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, acc: 96.567506, loss: 0.100734
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, acc: 96.567506, loss: 0.101138
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, acc: 96.567506, loss: 0.101435
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, acc: 96.567506, loss: 0.100967
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, acc: 96.567506, loss: 0.100963
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, acc: 96.567506, loss: 0.100824
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, acc: 96.567506, loss: 0.101263
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, acc: 96.643783, loss: 0.100464
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, acc: 96.567506, loss: 0.100567
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, acc: 96.643783, loss: 0.100198
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, acc: 96.720061, loss: 0.100002
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, acc: 96.643783, loss: 0.100692
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, acc: 96.643783, loss: 0.100700
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, acc: 96.643783, loss: 0.100745
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, acc: 96.643783, loss: 0.100377
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, acc: 96.720061, loss: 0.099439
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, acc: 96.720061, loss: 0.099392
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, acc: 96.720061, loss: 0.099968
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, acc: 96.643783, loss: 0.100194
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, acc: 96.643783, loss: 0.100283
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, acc: 96.643783, loss: 0.099468
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, acc: 96.720061, loss: 0.098922
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, acc: 96.720061, loss: 0.098766
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, acc: 96.720061, loss: 0.098823
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, acc: 96.720061, loss: 0.099094
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, acc: 96.720061, loss: 0.099548
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, acc: 96.796339, loss: 0.099011
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, acc: 96.720061, loss: 0.098719
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, acc: 96.720061, loss: 0.098973
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, acc: 96.720061, loss: 0.099087
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, acc: 96.720061, loss: 0.099122
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, acc: 96.720061, loss: 0.098733
+
+9
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, acc: 96.720061, loss: 0.098767
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, acc: 96.720061, loss: 0.098038
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, acc: 96.720061, loss: 0.098508
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, acc: 96.796339, loss: 0.098801
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, acc: 96.796339, loss: 0.098069
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, acc: 96.796339, loss: 0.097806
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, acc: 96.796339, loss: 0.098065
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, acc: 96.796339, loss: 0.097536
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, acc: 96.796339, loss: 0.097439
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, acc: 96.720061, loss: 0.097773
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, acc: 96.720061, loss: 0.097852
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, acc: 96.720061, loss: 0.097987
+
+1
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, acc: 96.720061, loss: 0.097987
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, acc: 96.720061, loss: 0.097955
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, acc: 96.720061, loss: 0.097543
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, acc: 96.796339, loss: 0.098356
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, acc: 96.796339, loss: 0.098114
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, acc: 96.720061, loss: 0.098726
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, acc: 96.720061, loss: 0.099101
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, acc: 96.720061, loss: 0.098979
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, acc: 96.720061, loss: 0.099386
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, acc: 96.796339, loss: 0.099155
+
+0
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, acc: 96.720061, loss: 0.098410
+
+3
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, acc: 96.796339, loss: 0.097908
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, acc: 96.796339, loss: 0.097510
+
+6
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, acc: 96.720061, loss: 0.097623
+
+8
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, acc: 96.720061, loss: 0.097897
+

@@ -1,0 +1,1034 @@
+Dataset ImageFolder
+    Number of datapoints: 5712
+    Root location: /home/cds/brain-tumor_image_classification/data/Brain Tumor MRI Dataset/archive/Training
+    StandardTransform
+Transform: Compose(
+               Resize(size=256, interpolation=bilinear, max_size=None, antialias=None)
+               CenterCrop(size=(224, 224))
+               ToTensor()
+           )
+
+           "model_name" : "vision_transformer",
+	
+	"no_models" : 10,
+	
+	"dp" : false,
+	
+	"global_epochs" : 100,
+	
+	"local_epochs" : 3,
+	
+	"k" : 3,
+	
+	"batch_size" : 32,
+	
+	"lr" : 0.001,
+	
+	"momentum" : 0.0001,
+
+	"C" : 1000,
+	
+	"lambda" : 0.1
+}
+[133 125 171 142]
+[137 135 155 144]
+[148 128 166 129]
+[123 133 166 149]
+[124 144 154 149]
+[122 140 165 144]
+[131 140 162 138]
+[134 148 146 143]
+[139 121 161 150]
+[130 125 148 168]
+
+
+
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, Accuracy: 35.32%, Loss: 1.36, Average Precision: 47.36%, Average Recall: 36.37%, Average F1-Score: 30.84%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 doEpoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 2, Accuracy: 75.90%, Loss: 0.66, Average Precision: 76.84%, Average Recall: 74.76%, Average F1-Score: 75.27%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3, Accuracy: 81.39%, Loss: 0.54, Average Precision: 81.34%, Average Recall: 80.39%, Average F1-Score: 80.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 4, Accuracy: 83.30%, Loss: 0.47, Average Precision: 83.21%, Average Recall: 82.34%, Average F1-Score: 82.55%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 5, Accuracy: 84.29%, Loss: 0.43, Average Precision: 83.95%, Average Recall: 83.38%, Average F1-Score: 83.52%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 6, Accuracy: 84.97%, Loss: 0.40, Average Precision: 84.64%, Average Recall: 84.11%, Average F1-Score: 84.23%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 7, Accuracy: 85.43%, Loss: 0.38, Average Precision: 85.03%, Average Recall: 84.59%, Average F1-Score: 84.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 8, Accuracy: 86.35%, Loss: 0.35, Average Precision: 86.12%, Average Recall: 85.55%, Average F1-Score: 85.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 9, Accuracy: 87.26%, Loss: 0.34, Average Precision: 87.17%, Average Recall: 86.56%, Average F1-Score: 86.68%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 10, Accuracy: 87.80%, Loss: 0.32, Average Precision: 87.72%, Average Recall: 87.10%, Average F1-Score: 87.22%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 11, Accuracy: 88.48%, Loss: 0.31, Average Precision: 88.20%, Average Recall: 87.85%, Average F1-Score: 87.91%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 12, Accuracy: 89.40%, Loss: 0.29, Average Precision: 89.37%, Average Recall: 88.78%, Average F1-Score: 88.91%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 13, Accuracy: 90.08%, Loss: 0.28, Average Precision: 90.09%, Average Recall: 89.47%, Average F1-Score: 89.60%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 14, Accuracy: 90.54%, Loss: 0.27, Average Precision: 90.44%, Average Recall: 89.94%, Average F1-Score: 90.07%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 15, Accuracy: 90.54%, Loss: 0.26, Average Precision: 90.40%, Average Recall: 89.94%, Average F1-Score: 90.04%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 16, Accuracy: 91.15%, Loss: 0.25, Average Precision: 91.12%, Average Recall: 90.60%, Average F1-Score: 90.72%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 17, Accuracy: 91.46%, Loss: 0.24, Average Precision: 91.26%, Average Recall: 90.94%, Average F1-Score: 91.02%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 18, Accuracy: 91.38%, Loss: 0.24, Average Precision: 91.25%, Average Recall: 90.85%, Average F1-Score: 90.94%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 19, Accuracy: 91.53%, Loss: 0.23, Average Precision: 91.39%, Average Recall: 91.01%, Average F1-Score: 91.08%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 20, Accuracy: 91.99%, Loss: 0.23, Average Precision: 91.95%, Average Recall: 91.50%, Average F1-Score: 91.58%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 21, Accuracy: 92.07%, Loss: 0.22, Average Precision: 92.00%, Average Recall: 91.59%, Average F1-Score: 91.67%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 22, Accuracy: 92.45%, Loss: 0.21, Average Precision: 92.29%, Average Recall: 92.01%, Average F1-Score: 92.08%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 23, Accuracy: 92.45%, Loss: 0.21, Average Precision: 92.35%, Average Recall: 92.01%, Average F1-Score: 92.08%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 24, Accuracy: 92.75%, Loss: 0.20, Average Precision: 92.68%, Average Recall: 92.33%, Average F1-Score: 92.42%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 25, Accuracy: 92.83%, Loss: 0.20, Average Precision: 92.75%, Average Recall: 92.42%, Average F1-Score: 92.50%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 26, Accuracy: 93.21%, Loss: 0.20, Average Precision: 93.15%, Average Recall: 92.83%, Average F1-Score: 92.90%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 27, Accuracy: 92.83%, Loss: 0.19, Average Precision: 92.80%, Average Recall: 92.41%, Average F1-Score: 92.48%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 28, Accuracy: 93.29%, Loss: 0.19, Average Precision: 93.25%, Average Recall: 92.91%, Average F1-Score: 92.95%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 29, Accuracy: 93.29%, Loss: 0.18, Average Precision: 93.22%, Average Recall: 92.89%, Average F1-Score: 92.93%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 30, Accuracy: 93.36%, Loss: 0.18, Average Precision: 93.32%, Average Recall: 92.97%, Average F1-Score: 93.02%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 31, Accuracy: 93.67%, Loss: 0.17, Average Precision: 93.64%, Average Recall: 93.30%, Average F1-Score: 93.36%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 32, Accuracy: 93.82%, Loss: 0.17, Average Precision: 93.76%, Average Recall: 93.47%, Average F1-Score: 93.52%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 33, Accuracy: 93.82%, Loss: 0.17, Average Precision: 93.80%, Average Recall: 93.47%, Average F1-Score: 93.53%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 34, Accuracy: 94.05%, Loss: 0.16, Average Precision: 94.01%, Average Recall: 93.71%, Average F1-Score: 93.76%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 35, Accuracy: 94.13%, Loss: 0.15, Average Precision: 94.04%, Average Recall: 93.80%, Average F1-Score: 93.84%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 36, Accuracy: 94.51%, Loss: 0.15, Average Precision: 94.45%, Average Recall: 94.21%, Average F1-Score: 94.25%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 37, Accuracy: 94.51%, Loss: 0.15, Average Precision: 94.45%, Average Recall: 94.21%, Average F1-Score: 94.25%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 38, Accuracy: 94.66%, Loss: 0.15, Average Precision: 94.61%, Average Recall: 94.36%, Average F1-Score: 94.41%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 39, Accuracy: 94.81%, Loss: 0.15, Average Precision: 94.72%, Average Recall: 94.48%, Average F1-Score: 94.53%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 40, Accuracy: 94.81%, Loss: 0.15, Average Precision: 94.77%, Average Recall: 94.52%, Average F1-Score: 94.56%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 41, Accuracy: 94.89%, Loss: 0.14, Average Precision: 94.81%, Average Recall: 94.61%, Average F1-Score: 94.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 42, Accuracy: 95.19%, Loss: 0.14, Average Precision: 95.10%, Average Recall: 94.90%, Average F1-Score: 94.94%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 43, Accuracy: 95.27%, Loss: 0.13, Average Precision: 95.15%, Average Recall: 94.98%, Average F1-Score: 95.01%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 44, Accuracy: 95.12%, Loss: 0.13, Average Precision: 94.98%, Average Recall: 94.81%, Average F1-Score: 94.85%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 45, Accuracy: 95.19%, Loss: 0.13, Average Precision: 95.07%, Average Recall: 94.90%, Average F1-Score: 94.93%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 46, Accuracy: 95.12%, Loss: 0.13, Average Precision: 95.00%, Average Recall: 94.81%, Average F1-Score: 94.85%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 47, Accuracy: 95.19%, Loss: 0.13, Average Precision: 95.09%, Average Recall: 94.89%, Average F1-Score: 94.93%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 48, Accuracy: 95.50%, Loss: 0.13, Average Precision: 95.40%, Average Recall: 95.22%, Average F1-Score: 95.26%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 49, Accuracy: 95.50%, Loss: 0.13, Average Precision: 95.40%, Average Recall: 95.22%, Average F1-Score: 95.26%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 50, Accuracy: 95.42%, Loss: 0.13, Average Precision: 95.37%, Average Recall: 95.14%, Average F1-Score: 95.18%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 51, Accuracy: 95.58%, Loss: 0.13, Average Precision: 95.55%, Average Recall: 95.30%, Average F1-Score: 95.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 52, Accuracy: 95.42%, Loss: 0.13, Average Precision: 95.38%, Average Recall: 95.14%, Average F1-Score: 95.17%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 53, Accuracy: 95.58%, Loss: 0.13, Average Precision: 95.57%, Average Recall: 95.30%, Average F1-Score: 95.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 54, Accuracy: 95.58%, Loss: 0.12, Average Precision: 95.59%, Average Recall: 95.30%, Average F1-Score: 95.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 55, Accuracy: 95.73%, Loss: 0.12, Average Precision: 95.74%, Average Recall: 95.44%, Average F1-Score: 95.49%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 56, Accuracy: 95.88%, Loss: 0.12, Average Precision: 95.91%, Average Recall: 95.61%, Average F1-Score: 95.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 57, Accuracy: 96.11%, Loss: 0.12, Average Precision: 96.14%, Average Recall: 95.84%, Average F1-Score: 95.89%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 58, Accuracy: 96.03%, Loss: 0.12, Average Precision: 96.07%, Average Recall: 95.77%, Average F1-Score: 95.80%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 59, Accuracy: 96.19%, Loss: 0.11, Average Precision: 96.18%, Average Recall: 95.92%, Average F1-Score: 95.95%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 60, Accuracy: 96.19%, Loss: 0.11, Average Precision: 96.18%, Average Recall: 95.92%, Average F1-Score: 95.95%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 61, Accuracy: 96.19%, Loss: 0.11, Average Precision: 96.12%, Average Recall: 95.90%, Average F1-Score: 95.94%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 62, Accuracy: 96.34%, Loss: 0.11, Average Precision: 96.27%, Average Recall: 96.07%, Average F1-Score: 96.11%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 63, Accuracy: 96.57%, Loss: 0.11, Average Precision: 96.50%, Average Recall: 96.31%, Average F1-Score: 96.35%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 64, Accuracy: 96.41%, Loss: 0.11, Average Precision: 96.41%, Average Recall: 96.14%, Average F1-Score: 96.18%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 65, Accuracy: 96.34%, Loss: 0.11, Average Precision: 96.29%, Average Recall: 96.06%, Average F1-Score: 96.09%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 66, Accuracy: 96.41%, Loss: 0.11, Average Precision: 96.34%, Average Recall: 96.15%, Average F1-Score: 96.17%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 67, Accuracy: 96.57%, Loss: 0.10, Average Precision: 96.51%, Average Recall: 96.31%, Average F1-Score: 96.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 68, Accuracy: 96.49%, Loss: 0.11, Average Precision: 96.41%, Average Recall: 96.23%, Average F1-Score: 96.27%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 69, Accuracy: 96.57%, Loss: 0.10, Average Precision: 96.49%, Average Recall: 96.31%, Average F1-Score: 96.35%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 70, Accuracy: 96.57%, Loss: 0.10, Average Precision: 96.46%, Average Recall: 96.31%, Average F1-Score: 96.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 71, Accuracy: 96.57%, Loss: 0.10, Average Precision: 96.46%, Average Recall: 96.31%, Average F1-Score: 96.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 72, Accuracy: 96.49%, Loss: 0.10, Average Precision: 96.36%, Average Recall: 96.23%, Average F1-Score: 96.26%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 73, Accuracy: 96.57%, Loss: 0.10, Average Precision: 96.45%, Average Recall: 96.31%, Average F1-Score: 96.34%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 74, Accuracy: 96.72%, Loss: 0.10, Average Precision: 96.60%, Average Recall: 96.48%, Average F1-Score: 96.50%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 75, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.69%, Average Recall: 96.54%, Average F1-Score: 96.57%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 76, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 77, Accuracy: 96.72%, Loss: 0.10, Average Precision: 96.62%, Average Recall: 96.48%, Average F1-Score: 96.50%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 78, Accuracy: 96.72%, Loss: 0.10, Average Precision: 96.62%, Average Recall: 96.46%, Average F1-Score: 96.49%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 79, Accuracy: 96.72%, Loss: 0.10, Average Precision: 96.60%, Average Recall: 96.46%, Average F1-Score: 96.49%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 80, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.69%, Average Recall: 96.54%, Average F1-Score: 96.57%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 81, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 82, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.66%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 83, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.68%, Average Recall: 96.54%, Average F1-Score: 96.56%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 84, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.68%, Average Recall: 96.54%, Average F1-Score: 96.56%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 85, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 86, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 87, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 88, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 89, Accuracy: 96.87%, Loss: 0.09, Average Precision: 96.76%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 90, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.68%, Average Recall: 96.54%, Average F1-Score: 96.56%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 91, Accuracy: 96.80%, Loss: 0.10, Average Precision: 96.71%, Average Recall: 96.54%, Average F1-Score: 96.56%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 92, Accuracy: 96.87%, Loss: 0.10, Average Precision: 96.77%, Average Recall: 96.62%, Average F1-Score: 96.65%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 93, Accuracy: 96.95%, Loss: 0.10, Average Precision: 96.86%, Average Recall: 96.70%, Average F1-Score: 96.72%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 94, Accuracy: 96.95%, Loss: 0.10, Average Precision: 96.87%, Average Recall: 96.70%, Average F1-Score: 96.73%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 95, Accuracy: 97.03%, Loss: 0.09, Average Precision: 96.96%, Average Recall: 96.79%, Average F1-Score: 96.82%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 96, Accuracy: 96.87%, Loss: 0.09, Average Precision: 96.73%, Average Recall: 96.60%, Average F1-Score: 96.63%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 97, Accuracy: 96.95%, Loss: 0.09, Average Precision: 96.82%, Average Recall: 96.71%, Average F1-Score: 96.72%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 98, Accuracy: 96.95%, Loss: 0.09, Average Precision: 96.81%, Average Recall: 96.71%, Average F1-Score: 96.72%
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 99, Accuracy: 96.95%, Loss: 0.09, Average Precision: 96.83%, Average Recall: 96.71%, Average F1-Score: 96.72%

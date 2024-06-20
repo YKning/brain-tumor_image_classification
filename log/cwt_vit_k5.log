@@ -1,0 +1,74 @@
+/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torchvision/image.so: undefined symbol: _ZN3c104impl8GPUTrace13gpuTraceStateE
+  warn(f"Failed to load image Python extension: {e}")
+Dataset ImageFolder
+    Number of datapoints: 5712
+    Root location: /home/ykn/cds/chapter03_Python_image_classification/data/Brain Tumor MRI Dataset/archive/Training
+    StandardTransform
+Transform: Compose(
+               Resize(size=256, interpolation=bilinear, max_size=None, antialias=None)
+               CenterCrop(size=(224, 224))
+               ToTensor()
+           )
+571
+571
+571
+571
+571
+571
+571
+571
+571
+571
+
+
+
+5
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 28.756674, loss: 1.558331
+
+2
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 37.909992, loss: 1.364422
+
+4
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 0, acc: 46.453089, loss: 1.221337
+
+7
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Traceback (most recent call last):
+  File "cwt_main.py", line 106, in <module>
+    acc, loss = server.model_eval()
+  File "/home/ykn/cds/chapter03_Python_image_classification/server.py", line 41, in model_eval
+    output = self.global_model(data)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/timm/models/vision_transformer.py", line 639, in forward
+    x = self.forward_features(x)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/timm/models/vision_transformer.py", line 624, in forward_features
+    x4 = self.blocks(x3)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/timm/models/vision_transformer.py", line 156, in forward
+    x = x + self.drop_path2(self.ls2(self.mlp(self.norm2(x))))
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/timm/layers/mlp.py", line 43, in forward
+    x = self.act(x)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ykn/anaconda3/envs/cds/lib/python3.7/site-packages/torch/nn/modules/activation.py", line 670, in forward
+    return F.gelu(input)
+RuntimeError: CUDA out of memory. Tried to allocate 38.00 MiB (GPU 0; 23.65 GiB total capacity; 5.56 GiB already allocated; 31.31 MiB free; 5.89 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

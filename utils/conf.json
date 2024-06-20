@@ -1,0 +1,24 @@
+{
+	
+	"model_name" : "EfficientNetV2",
+	
+	"no_models" : 10,
+	
+	"dp" : false,
+	
+	"global_epochs" : 100,
+	
+	"local_epochs" : 3,
+	
+	"k" : 3,
+	
+	"batch_size" : 32,
+	
+	"lr" : 0.001,
+	
+	"momentum" : 0.0001,
+
+	"C" : 1000,
+	
+	"lambda" : 0.1
+}

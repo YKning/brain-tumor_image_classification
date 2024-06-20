@@ -1,0 +1,42 @@
+Dataset ImageFolder
+    Number of datapoints: 5712
+    Root location: /home/ykn/cds/chapter03_Python_image_classification/data/Brain Tumor MRI Dataset/archive/Training
+    StandardTransform
+Transform: Compose(
+               Resize(size=256, interpolation=bilinear)
+               CenterCrop(size=(224, 224))
+               ToTensor()
+           )
+571
+571
+571
+571
+571
+571
+571
+571
+571
+571
+
+
+
+Epoch 0 done.
+Epoch 1 done.
+Epoch 2 done.
+Epoch 3 done.
+Epoch 4 done.
+Epoch 0 done.
+Traceback (most recent call last):
+  File "/home/ykn/cds/chapter03_Python_image_classification/main.py", line 98, in <module>
+    diff = c.local_train(server.global_model)
+  File "/home/ykn/cds/chapter03_Python_image_classification/client.py", line 62, in local_train
+    clipped_difference = norm_scale * (layer.data - model.state_dict()[name])
+  File "/home/ykn/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1076, in state_dict
+    module.state_dict(destination, prefix + name + '.', keep_vars=keep_vars)
+  File "/home/ykn/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1076, in state_dict
+    module.state_dict(destination, prefix + name + '.', keep_vars=keep_vars)
+  File "/home/ykn/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1076, in state_dict
+    module.state_dict(destination, prefix + name + '.', keep_vars=keep_vars)
+  File "/home/ykn/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1072, in state_dict
+    destination._metadata[prefix[:-1]] = local_metadata = dict(version=self._version)
+KeyboardInterrupt
